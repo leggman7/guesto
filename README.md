@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails new guesto -d postgresql
+rails db:create
 
-Things you may want to cover:
+git init
+git add -A
+git commit -m "Guesto Project"
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+rails g scaffold Greeting name message:text
 * ...
