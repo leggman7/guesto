@@ -82,6 +82,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-#  database: guesto_production
-#  username: guesto
-#  password: <%= ENV["GUESTO_DATABASE_PASSWORD"] %>
+  database: guesto_production
+  username: guesto
+  password: <%= ENV["GUESTO_DATABASE_PASSWORD"] %>
